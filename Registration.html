@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2>Electronics-shop</h2>
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Catalog</a>
+            <a href="#">Cart</a>
+            <a href="#"> About</a>
+            <a href="#"> Contact Us</a>&nbsp;
+    
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> <!--search icon-->
+            <a href="Registration.html"><i class="fa-solid fa-user"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+    <div class="form" id="Signup">
+        <div class="signup-fields">
+            <h2>Create Account</h2>
+            <div><input class="field" type="text" placeholder="First Name"></div>
+            <div><input class="field" type="text" placeholder="Last Name"></div> 
+            <div><input class="field" type="text" placeholder="Email"></div> 
+            <div><input class="field" type="password" placeholder="Password"></div> 
+            <div><input class="field" type="password" placeholder="Confirm Password"></div> 
+            <div><button class="register">Register</button></div>
+            <div><a href="">Forget Password?</a></div>
+            <div><a href="" id="linkLogin">Already have an account? Login</a></div>
+            <!-- <div><a href="" id="linkSignup">Don't have an account? Create account</a></div> -->
+        </div>
+        <div class="form-img">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please<br>login with your personal info </p>
+            <div><button id="login-btn" class="register">LOGIN</button></div>
+        </div>
+    </div> <br>
+
+    <div class="form" id="Login">
+
+        <div class="form-img">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details<br>and start journey with us</p>
+            <div><button id="signup-btn" class="register">SIGN UP</button></div>
+        </div>
+        <div class="login-fields">
+            <h2>Sign in</h2>
+            <div><input class="field" type="text" placeholder="Email"></div>
+            <div><input class="field" type="password" placeholder="Password"></div>
+            <div><button class="register">Login</button></div>
+            <div><a href="" id="linkSignup">Don't have an account? Create account</a></div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
