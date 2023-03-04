@@ -55,7 +55,7 @@
   width: 50px;
   border: 0;
   line-height: 25px;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
   background: white;
   color: #FF5800;
@@ -64,7 +64,7 @@
 }
 .counter span {
   display: block;
-  font-size: 25px;
+  font-size: 1.5rem;
   padding: 0 10px;
   cursor: pointer;
   color: white;
