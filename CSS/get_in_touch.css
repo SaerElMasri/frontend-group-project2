@@ -239,3 +239,28 @@ body{
         font-size: 13px;
       }
   }
+
+  @media (max-width: 800px){
+    .contact-div{
+      width: 50%;
+      height: 67%;
+      margin-right: 5%;
+    }
+    .text-container h1{
+      font-size: 29px;
+    }
+    .contact-div h2{
+      color: white;
+      font-size: 15px;
+    }
+    .img-contact-us{
+      width: 45%;
+      height: 38%;
+      left: -1%;
+      margin-left: 2%;
+    }
+    .btn-return{
+      width: 10%;
+      margin-top: 78%;
+    }
+  }
