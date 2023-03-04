@@ -119,7 +119,7 @@ body{
     margin-left: 10%;
 }
 .img-contact-us{
-    background-image: url(assets/pexels-pixabay-326576.jpg);
+    background-image: url(../assets/pexels-pixabay-326576.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ body{
     right: 50%;
     margin-top: 40%;
     cursor: pointer;
-    background-image: url(assets/up-arrow-svgrepo-com.svg);
+    background-image: url(../assets/up-arrow-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
