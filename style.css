@@ -352,3 +352,20 @@ border-style: hidden;
     padding: 2%;
     box-shadow: 2px 2px 8px #ff5800;
 }
+.instagram_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram_title {
+    font-size: 3rem;
+}
+
+.instagram_posts {
+    display: flex;
+    margin-top: 5%;
+}
+.instagram_post img {
+    max-height: 310px;
+}
