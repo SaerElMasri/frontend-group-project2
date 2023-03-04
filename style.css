@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: auto;
     font-family: "Open Sans", Arial, sans-serif;
-    background-color: #e6eff9;
+
 }
 .navbar{
     display: flex;
@@ -36,7 +36,11 @@ body{
     display: flex;
     align-items: center;
     margin: 3% 25% 2%;
+    border-radius: 2%;
     align-content: center;
+    /* border: 2px solid #FF5800; */
+    box-shadow: 2px 2px 7px #FF5800;
+    
     /* width: 50%;
     height: 30%; */
     color: black;
@@ -50,7 +54,7 @@ body{
     padding: 1rem;
     text-align: center;
     width: 50%;
-    height: 72.5vh;
+    height: 70vh;
     gap: 13px;
     background-color: #ffffff;
     
@@ -77,6 +81,8 @@ border-style: hidden;
     padding: 0.5rem;
     background-color: #FF5800;
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
 
 }
 .form-img{
@@ -89,6 +95,85 @@ border-style: hidden;
     width: 50%;
     height: 72.5vh;
     background-color: #C2D7F2;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
     color: black;
     text-shadow: 2px 2px 8px rgb(181, 175, 175);
 }
+
+
+.slideshow-container {
+    max-width: 100%;
+    height:750px;
+    display:flex;
+    position: relative;
+    margin: auto;
+    background-color:#C2D7F2;
+  }
+  .myslides img{
+    width:50%;
+
+  }
+  .slider_text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dots{
+    text-align: center;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .services{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap:20%; */
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5%;
+  }
+
+  .service_img img{
+    max-height:70px;
+  }
+
+  .service_title{
+    font-size:2rem;
+    text-align: center;
+  }
+
+  .service{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
