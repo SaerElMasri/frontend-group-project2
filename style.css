@@ -312,13 +312,13 @@ border-style: hidden;
 
 .testimonials {
     display: flex;
-    display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 5%;
+    gap: 3%;
 }
 
 .testimony_img img {
@@ -367,5 +367,12 @@ border-style: hidden;
     margin-top: 5%;
 }
 .instagram_post img {
-    max-height: 310px;
+    max-height: 200px;
+    transition: .3s;
+}
+
+
+.instagram_post img:hover {
+    transform: scale(1.1);
+    transition: .3s;
 }
