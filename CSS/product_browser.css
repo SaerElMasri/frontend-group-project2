@@ -105,11 +105,11 @@ body{
     padding-top: 13%;
     padding-bottom: 10%;
 }
-img{
+.product-img img{
 
     width: 80%;
 }
-img:hover{
+.product-img img:hover{
     transform: scale(1.1);
 }
 .bg-effect{

@@ -9,24 +9,20 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-   
-   
 }
 .logo{
     margin-left: 2rem;
-    color: white;
+    color: black;
 }
 .links{
     display: flex;
     gap: 20px;
     margin-right: 2rem;
-   
 }
 
 .links a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .links a:hover {
     color: #FF5800;
@@ -100,6 +96,82 @@ border-style: hidden;
     color: black;
     text-shadow: 2px 2px 8px rgb(181, 175, 175);
 }
+
+
+.slideshow-container {
+    max-width: 100%;
+    height:750px;
+    display:flex;
+    position: relative;
+    margin: auto;
+    background-color:#C2D7F2;
+  }
+  .myslides img{
+    width:50%;
+
+  }
+  .slider_text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dots{
+    text-align: center;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .services{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5%;
+  }
+
+  .service_img img{
+    max-height:70px;
+  }
+
+  .service_title{
+    font-size:2rem;
+    text-align: center;
+  }
+
+  .service{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
 .OurStory{
     width: fit-content;
     display: flex;
@@ -167,4 +239,36 @@ border-style: hidden;
 }
 .title, .title1{
     text-shadow: 2px 2px 8px #FF5800;
+}
+
+.new_products{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.new_products_grid {
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.new_products_title {
+    font-size: 4rem;
+}
+.new_products_description {
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+
+.separator {
+    border-top: 1px solid #FF5800;
+    width: 50%;
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
