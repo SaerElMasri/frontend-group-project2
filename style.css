@@ -106,9 +106,30 @@ border-style: hidden;
     margin: auto;
     background-color:#C2D7F2;
   }
-  .myslides img{
-    width:50%;
 
+  .slides{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .slides img{
+    max-height:500px;
+
+  }
+
+  .slider_info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slider_title{
+    font-size:4rem;
+    width:80%;
   }
   .slider_text {
     color: #f2f2f2;
@@ -119,7 +140,20 @@ border-style: hidden;
     width: 100%;
     text-align: center;
   }
-  
+  .slider_button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: #FF5800;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
   .dots{
     text-align: center;
   }
@@ -356,6 +390,7 @@ border-style: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:5%;
 }
 
 .instagram_title {
