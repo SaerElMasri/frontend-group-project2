@@ -9,24 +9,20 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-   
-   
 }
 .logo{
     margin-left: 2rem;
-    color: white;
+    color: black;
 }
 .links{
     display: flex;
     gap: 20px;
     margin-right: 2rem;
-   
 }
 
 .links a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .links a:hover {
     color: #FF5800;
