@@ -272,3 +272,33 @@ border-style: hidden;
     margin-left: auto;
     margin-right: auto;
 }
+
+.hot_deal_container{
+    background-color:#C2D7F2;
+    margin-top:5%;
+}
+.hot_deal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5%;
+
+}
+
+.hot_deal_title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hot_deal_countdown, .hot_deal_product_name,.hot_deal_product_price{
+    font-size:2rem;
+    margin-top:5%;
+}
+
+.old_price{
+    text-decoration: line-through;
+    text-decoration-color:#FF5800;
+    margin-right:5%;
+}
