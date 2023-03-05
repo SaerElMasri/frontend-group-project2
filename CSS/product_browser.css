@@ -106,7 +106,7 @@ body{
     padding-bottom: 10%;
 }
 .product-img img{
-
+    transition: .3s;
     width: 80%;
 }
 .product-img img:hover{
@@ -126,7 +126,7 @@ body{
     opacity: 1;  
 }
 .product-brief h1{
-    font-size: xx-large;
+    font-size: large;
     margin-left: 6%;
     margin-top: 15%;
     padding-top: 2%;
