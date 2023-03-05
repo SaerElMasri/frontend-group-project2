@@ -3,55 +3,77 @@ body{
     padding: auto;
     font-family: "Open Sans", Arial, sans-serif;
 }
-.Forgot_form{
+.checkout_form{
     display: flex;
     align-items: center;
     margin: 3% 25% 2%;
     border-radius: 2%;
     align-content: center;
-    box-shadow: 2px 2px 7px #C2D7F2;
+    box-shadow: 2px 2px 7px #FF5800;
     color: black;
     text-shadow: 2px 2px 8px white;
 }
-.Forgot_Fields{
+.checkout_Fields{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
     text-align: center;
-    width: 45%;
+    width: 100%;
     height: 70vh;
     gap: 13px;
     background-color: #ffffff; 
 }
-.Forgot_Field{
+.checkout_Field{
 padding: 1rem;
 width: 60%;
 background-color: #DCDCDC;
 border-radius: 5px;
 border-style: hidden;
 }
-.Forgot-img{
+.checkout_credits{
+    
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 55%;
-    height: 72.5vh;
-    background-image:url("../assets/Final.jpg");
-    background-size: cover;
-    border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 3% 15%;
 }
-.Forgot_form a{
+.checkout_credits_2{
+
     display: flex;
-    margin-top:0.5rem;
-    margin-left: 3rem;
-    color: black;
-    font-size: 12px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left:  15%;
+    margin-right: 15%;
+  
 }
-.Forgot_form a:hover{
-    color: #FF5800;
+.checkout_credits_field{
+padding-left: 1.4rem;
+width: 50%;
 }
+.checkout_results{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 3% 15% 2%;
+}
+.payment{
+    display: block;
+    width: 200px; 
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: #FF5800;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+}
+
 .footer {
     width: 100%;
     position: relative;
