@@ -36,12 +36,20 @@ border-style: hidden;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 3% 15% 2%;
+    margin: 3% 15%;
+}
+.checkout_credits_2{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left:  15%;
+    margin-right: 15%;
+  
 }
 .checkout_credits_field{
-padding: 1.4rem;
-width: 60%;
-
+padding-left: 1.4rem;
+width: 50%;
 }
 .checkout_results{
     
@@ -50,7 +58,21 @@ width: 60%;
     flex-direction: row;
     margin: 3% 15% 2%;
 }
-
+.payment{
+    display: block;
+    width: 200px; 
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: #FF5800;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+}
 
 .footer {
     width: 100%;
