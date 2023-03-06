@@ -11,7 +11,8 @@ function sub(){
     console.log(password);
     const confirmed=document.getElementById("confirmed").value;
     console.log(confirmed);
-if(password==confirmed){
+if(password!=""){
+if(password==confirmed ){
 let data = new FormData();
 data.append('email',email);
 data.append('password',password);
@@ -30,4 +31,4 @@ axios.post('http://localhost/backend-group-project2/reset_password.php', data).t
       })
 }else{
     alert("passwords are not the same")
-}}
+}} else alert("Password empty")}
