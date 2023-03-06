@@ -1,7 +1,7 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
-}
+} */
 .container{
     width: 100%;
     display: flex;
@@ -142,16 +142,23 @@ img{
     padding-left: 2%;
     padding-right: 2%;
 }
-.btn-proceed{
-    border: 1px solid black;
-    width: 70%;
-    height: 20%;
-    border-radius: 10px;
-    margin: auto;
+
+.btn-proceed {
+  width: fit-content;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 2em;
+    font-size: 14px;
     background-color: #FF5800;
-    border: none;
-    font-size: x-large;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    line-height: 10px;
+    margin: auto;
 }
+
 @media (max-width: 800px) {
     .shopping-cart {
       width: 100%;
