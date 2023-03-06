@@ -1,8 +1,3 @@
-body{
-    margin: 0;
-    padding: auto;
-    font-family: "Open Sans", Arial, sans-serif;
-}
 .container{
     position: relative;
     width: 100%;
@@ -24,17 +19,17 @@ body{
     justify-content: start;
 }
 .category h1{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10%;
     margin-top: 20%;
 }
 .category ul{
-    margin-left: 10%;
+  
     margin-top: 0;
     list-style: none;
 }
 .category li{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 5%;
 
 }
@@ -46,7 +41,7 @@ body{
     justify-content: start;
 }
 .filter-price h1{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10%;
     margin-top: 20%;
 }
@@ -65,20 +60,26 @@ body{
 .filter-price input:focus{
     outline: none;
 }
-.column-category button{
-    margin-top: 20%;
-    margin-left: 10%;
-    width: 70%;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color: #FF5800;
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
+
+.column-category button {
+  margin-top: 20%;
+  margin-left: 10%;
+  width: fit-content;
+  height: 2rem;
+  border-radius: 5px;
+  border-style: hidden;
+  align-content: center;
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  background-color: #FF5800;
+  color: white;
+  padding: 10px 20px;
+    line-height: 10px;
+  cursor: pointer;
+  position: relative;
 }
+
 .products-div{
     margin-top: 2%;
     width: 80%;
