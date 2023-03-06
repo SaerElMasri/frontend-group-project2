@@ -2,10 +2,12 @@
   height: 10%;
   border-radius: 10px;
   background-color: #FF5800;
+  background-color: #57da27;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-size: 10px;
   cursor: pointer;
-  font-size: large;
+  /* font-size: large; */
   border: none;   
 }
 

@@ -72,7 +72,7 @@ background-color: #DCDCDC;
 border-radius: 5px;
 border-style: hidden;
 }
-.register{
+/* .register{
     border-radius: 5px;
     border-style: hidden;
     padding: 0.5rem;
@@ -81,7 +81,8 @@ border-style: hidden;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-}
+} */
+
 .form-img, .form-img2{
     display: flex;
     flex-direction: column;
@@ -277,8 +278,7 @@ border-style: hidden;
     background-color: #C2D7F2;
 
 }
-.title, .title1{
-}
+
 
 .new_products{
     display:flex;
@@ -418,4 +418,18 @@ border-style: hidden;
 .instagram_post img:hover {
     transform: scale(1.1);
     transition: .3s;
+}
+.all-btn {
+    width: fit-content;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 2em;
+    font-size: 14px;
+    background-color: #FF5800;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    line-height: 10px;
 }
