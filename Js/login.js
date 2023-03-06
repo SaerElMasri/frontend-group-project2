@@ -55,7 +55,7 @@ function signup() {
     axios.post('http://localhost/backend-group-project2/signup.php', data)
     .then((result) => {
     console.log(result);
-    if (result.data.status=== "success") {
+    if (result.data.status== "success") {
       alert("Signed up successfully!");
       window.location.href = "../index.html"; // redirect to product page
     } else {
