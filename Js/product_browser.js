@@ -62,7 +62,7 @@ const products = (data_response) => {
         const markup = `
             <div class="product-component">
             <div class="product-img">
-                <img src="../assets/dummy_product.png" alt="">
+                <img src="${item.image_url}" alt="">
                 <button class="add-to-cart-btn">Add to Cart</button>
                 <div class="bg-effect"></div>
             </div>
@@ -102,7 +102,7 @@ const fetchProducts = async(url) => {
             const markup = `
                 <div class="product-component">
                 <div class="product-img">
-                    <img src="../assets/dummy_product.png" alt="">
+                    <img src="${prod.image_url}" alt="">
                     <button class="add-to-cart-btn">Add to Cart</button>
                     <div class="bg-effect"></div>
                 </div>
