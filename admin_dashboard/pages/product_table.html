@@ -11,7 +11,7 @@
     <div class="container">
         <div class="header">
             <h2>Admin Dashboard</h2>
-            <button type="button">Logout Admin</button>
+            <button type="button" id="logout_btn">Logout Admin</button>
         </div>
         <div class="dashboard">
             <div class="dashboard-option">
@@ -24,14 +24,23 @@
                 <div class="dash-info">
                     <h2>Product Table</h2>
                     <button type="button"><a href="../pages/add_product.html">Add Product</a></button>
-                    <button type="button">Edit Product</button>
                 </div>
                 <div class="table">
-                    <div class="table-prod"></div>
+                    <div class="table-prod">
+                        <div class="header-table">
+                            <h2>Product Name</h1>
+                            <h2>Product Description</h1>
+                            <h2>Product Price</h1>
+                            <h2>Product Category</h1>
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <script src="../js/product_table.js"></script>
 </body>
 </html>
