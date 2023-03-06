@@ -1,17 +1,24 @@
-let signup_btn = document.getElementById('signup');
-let signin_btn = document.getElementById('signin')
-signup_btn.addEventListener('click', signup);
-signin_btn.addEventListener('click', signin);
+const submit = document.getElementById('submit');
+console.log(submit);
+submit.addEventListener("click",sub);
 
-function signup() {
+function sub(){
+    const email=document.getElementById("email").value;
+    console.log(email);
+    const password=document.getElementById("pass").value;
+    console.log(password);
+    const confirmed=document.getElementById("confirmed").value;
+    console.log(confirmed);
 
-    let username = document.getElementById('username_signup').value;
-    let password = document.getElementById('password_signup').value;
-    let first_name = document.getElementById('first_signup').value;
-    let last_name = document.getElementById('last_signup').value;
+let data = new FormData();
+data.append('email',email);
+data.append('password',password);
+data.append('confirmed', confirmed);
+axios.post('http://localhost/backend-group-project2/reset_password.php', data).then(function (res) {
+    console.log(res.data)
+    console.log(window.sessionStorage.getItem('user_id'))
+}).catch(function (err) {
+    console.log(err);
+})
 
-    let data = new FormData();
-    data.append('username', username);
-    data.append('password', password);
-    data.append('first_name', first_name);
-    data.append('last_name', last_name);
+}
