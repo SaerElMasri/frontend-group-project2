@@ -34,7 +34,7 @@ Signupbtn.addEventListener("click", e => {
 
 
 let signup_btn = document.getElementById('btn_signup');
-let signin_btn = document.getElementById('btn_login')
+let signin_btn = document.getElementById('btn_login');
 signup_btn.addEventListener('click', signup);
 signin_btn.addEventListener('click', signin);
 
