@@ -65,6 +65,9 @@ body{
 .form a:hover{
     color: #FF5800;
 }
+.color-person{
+    color:#FF5800;
+}
 .field{
 padding: 1rem;
 width: 60%;
@@ -72,16 +75,7 @@ background-color: #DCDCDC;
 border-radius: 5px;
 border-style: hidden;
 }
-/* .register{
-    border-radius: 5px;
-    border-style: hidden;
-    padding: 0.5rem;
-    background-color: #FF5800;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-} */
+
 
 .form-img, .form-img2{
     display: flex;
