@@ -79,12 +79,14 @@ function signin() {
         console.log(res.data)
     if (res.data.response== "logged in") {
       alert("Logged in successfully!");
+      
       if(email==="admin@gmail.com"&&password==="admin"){
+        
          window.location.href = "../admin_dashboard/pages/product_table.html";
       }else
         window.location.href = "../index.html"; // redirect to product page
-      
-      
+        
+        
       
     }else {
       alert("Make sure login information is correct");
@@ -96,4 +98,3 @@ function signin() {
     })
 
 }
-console.log('test')
