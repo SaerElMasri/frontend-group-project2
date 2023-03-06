@@ -27,15 +27,7 @@ const fetch_users = async(url) => {
       tr.appendChild(td3);
       tbody.appendChild(tr);
     });
-      // const node = document.createElement("div");
-      // node.classList.add('table_row')
-      // const first_name = document.createTextNode(user.first_name);
-      // const last_name = document.createTextNode(user.last_name);
-      // const email = document.createTextNode(user.email);
-      // node.appendChild(first_name);
-      // node.appendChild(last_name);
-      // node.appendChild(email);
-      // document.querySelector(".table_row").appendChild(node);
+
 
   }).catch((err) => {
       console.log(err);
