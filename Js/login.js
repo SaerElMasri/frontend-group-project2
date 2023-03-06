@@ -52,16 +52,6 @@ function signup() {
     data.append('last_name', last_name);
     data.append('email', email);
     data.append('password', password);
-    // axios.post('http://localhost/backend-group-project2/signup.php', data).then(function (res) {
-   
-    //   alert("signed up")
-    //   console.log(res.data)   
-    //   console.log('signed up successfully')
- 
-    // }).catch((err)=> {
-    //     console.log(err);
-    //      alert("failed")
-    // })
     axios.post('http://localhost/backend-group-project2/signup.php', data)
     .then((result) => {
     console.log(result);
@@ -69,7 +59,7 @@ function signup() {
       alert("Signed up successfully!");
       window.location.href = "../index.html"; // redirect to product page
     } else {
-      console.error("Error");
+      alert("Email Already exists!");
     }
   })
   .catch((err) => {
