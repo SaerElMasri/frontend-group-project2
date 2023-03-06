@@ -34,9 +34,9 @@
             <div class="category">
                 <h1>Category</h1>
                 <ul>
-                    <li><input type="checkbox"> Laptops</li>
-                    <li><input type="checkbox"> Smartphones</li>
-                    <li><input type="checkbox"> Accessories</li>
+                    <li><input type="radio" name="categories" id="laptops" value="Laptops">Laptops</li>
+                    <li><input type="radio" name="categories" id="smarthphones" value="Smartphones">Smartphones</li>
+                    <li><input type="radio" name="categories" id="accessories" value="Accessories">Accessories</li>
                 </ul>
             </div>
             <div class="filter-price">
@@ -45,7 +45,8 @@
                 <h1>Price to</h1>
                 <input type="text" placeholder="To">
             </div> 
-           <button>Filter</button>
+           <button type="button" id="filter-action">Filter</button>
+           <button type="button" id="clear-action">Clear</button>
         </div>
         <div class="products-div">
         
