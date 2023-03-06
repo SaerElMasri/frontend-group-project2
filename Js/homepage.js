@@ -34,3 +34,32 @@ let x = setInterval(function() {
     document.getElementById("hot_deal_countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
+const display_products = "http://localhost/backend-group-project2/products.php?limit=8";
+const fetchProducts = async(url) => {
+  await fetch(url).then((response)=>{
+      return response.json();
+  }).then(data => {
+    let new_prod = data.slice(0,8);
+    new_prod.forEach(prod => {
+      let id = prod.id;
+      const markup = `
+        <div class="product-component">
+        <div class="product-img">
+        <img src="${prod.image_url}" alt="">
+        <button class="add-to-cart-btn">Add to Cart</button>
+        <div class="bg-effect"></div>
+        </div>
+        <div class="product-brief">
+        <h1>${prod.name}</h1>
+        <h2>$${prod.price}</h2>
+        </div>
+        </div>
+      `;
+      const element = document.createRange().createContextualFragment(markup);
+      document.querySelector(".new_products_grid").appendChild(element); 
+    });
+  }).catch((err) => {
+      console.log(err);
+  });
+}
+fetchProducts(display_products);
