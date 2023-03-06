@@ -9,6 +9,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo{
     margin-left: 2rem;
@@ -81,7 +82,7 @@ border-style: hidden;
     font-weight: bold;
     cursor: pointer;
 }
-.form-img{
+.form-img, .form-img2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,6 +96,12 @@ border-style: hidden;
     border-bottom-right-radius: 2%;
     color: black;
     text-shadow: 2px 2px 8px rgb(181, 175, 175);
+}
+.form-img2{
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 0%; 
+    border-bottom-right-radius: 0%; 
 }
 
 
@@ -214,6 +221,7 @@ border-style: hidden;
     padding-right: 2rem;
     background-color: #DCDCDC;
 }
+
 .text1{
     width: 40%;
     margin-left: 10%;
