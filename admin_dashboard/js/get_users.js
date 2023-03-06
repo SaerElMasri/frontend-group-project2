@@ -1,5 +1,11 @@
 const myTable = document.getElementById('table_row');
 const tbody = myTable.querySelector('tbody');
+const logout_btn = document.getElementById('logout');
+
+logout_btn.addEventListener('click',() =>{
+  window.location.href="http://localhost/frontend-group-project2/pages/registration.html";
+})
+
 let table_row = document.getElementById("table_row");
 const display_users = "http://localhost/backend-group-project2/users.php";
 const fetch_users = async(url) => {

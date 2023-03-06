@@ -26,6 +26,7 @@ body{
     font-size: large;
     background-color: #FF5800;
     cursor: pointer;
+    color: white;
 }
 .dashboard{
     width: 100%;
@@ -76,6 +77,7 @@ body{
     background-color: #FF5800;
     cursor: pointer;
     margin-right: 5%;
+    color: white;
 
 }
 .table{
