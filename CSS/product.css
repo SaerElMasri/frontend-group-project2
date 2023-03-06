@@ -1,15 +1,19 @@
 .add-to-cart-btn {
-  height: 10%;
-  border-radius: 10px;
+  width: fit-content;
+  height: 2rem;
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
   background-color: #FF5800;
-  background-color: #57da27;
+  border-style: hidden;
   color: white;
-  /* font-weight: bold; */
-  font-size: 10px;
+  font-size: 12px;
   cursor: pointer;
-  /* font-size: large; */
-  border: none;   
+  border: none; 
+  padding: 10px 20px;
+    line-height: 10px;
 }
+
 
 .product_window{
   width:60%;
