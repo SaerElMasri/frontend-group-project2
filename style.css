@@ -80,6 +80,7 @@ border-style: hidden;
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 .form-img, .form-img2{
     display: flex;
