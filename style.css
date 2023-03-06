@@ -313,6 +313,7 @@ border-style: hidden;
 .hot_deal{
     display: flex;
     justify-content: center;
+    gap: 10%;
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;

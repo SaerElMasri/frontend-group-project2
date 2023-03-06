@@ -85,9 +85,7 @@ function signin() {
          window.location.href = "../admin_dashboard/pages/product_table.html";
       }else
         window.location.href = "../index.html"; // redirect to product page
-        
-        
-      
+         
     }else {
       alert("Make sure login information is correct");
     }
