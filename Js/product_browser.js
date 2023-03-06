@@ -79,7 +79,7 @@ const products = (data_response) => {
                 prod_data.append("prod_name", item.name);
                 prod_data.append("prod_description", item.description);
                 prod_data.append("price", item.price);
-                prod_data.append("image_url", item.img_url);
+                prod_data.append("image_url", item.image_url);
             buttons.forEach((button) => {
                 button.addEventListener('click', () => {
                     axios.post(addURL, prod_data).then((res) => {
@@ -119,7 +119,7 @@ const fetchProducts = async(url) => {
                 prod_data.append("prod_name", prod.name);
                 prod_data.append("prod_description", prod.description);
                 prod_data.append("price", prod.price);
-                prod_data.append("image_url", prod.img_url);
+                prod_data.append("image_url", prod.image_url);
             buttons.forEach((button) => {
                 button.addEventListener('click', () => {
                     axios.post(addURL, prod_data).then((res) => {
