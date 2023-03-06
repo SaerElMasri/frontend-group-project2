@@ -45,13 +45,15 @@ function signup() {
     let email = document.getElementById('email_signup').value;
     let password = document.getElementById('password_signup').value;
     // let confirm_password = document.getElementById('confirmPass_signup').value;
-
+    
     let data = new FormData();
     
     data.append('first_name', first_name);
     data.append('last_name', last_name);
     data.append('email', email);
     data.append('password', password);
+    if(isValidEmail(email)){
+      if(isValidPassword(password)){
     axios.post('http://localhost/backend-group-project2/signup.php', data)
     .then((result) => {
     console.log(result);
@@ -65,13 +67,23 @@ function signup() {
   .catch((err) => {
     console.error(err);
   });
+}else(alert("the password is not valid"))
+}else alert("the email is not valid")}
 
+    function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);}
 
-}
-
+    function isValidPassword(password) {
+      const emailRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      return emailRegex.test(password);}
 function signin() {
+
     let email = document.getElementById('email_signin').value;
     let password = document.getElementById('password_signin').value;
+    console.log(isValidEmail(email));
+   
+
     let data = new FormData();
     data.append('email', email);
     data.append('password', password);
