@@ -66,6 +66,7 @@ function signup() {
     console.error(err);
   });
 
+
 }
 
 function signin() {
@@ -76,6 +77,14 @@ function signin() {
     data.append('password', password);
     axios.post('http://localhost/backend-group-project2/login.php', data).then(function (res) {
         console.log(res.data)
+    if (res.data.response== "logged in") {
+      alert("Logged in successfully!");
+      window.location.href = "../index.html"; // redirect to product page
+      
+    }else {
+      alert("Make sure login information is correct");
+    }
+    
 
     }).catch(function (err) {
         console.log(err);
