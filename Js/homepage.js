@@ -52,7 +52,7 @@ const fetchProducts = async(url) => {
         <div class="product-brief">
         <h1>${prod.name}</h1>
         <h2>$${prod.price}</h2>
-        <a href = http://localhost/frontend-group-project2/pages/product.html?id=${prod.id}>View Details</a>
+        <a class ="view_details" href = http://localhost/frontend-group-project2/pages/product.html?id=${prod.id}>View Details</a>
         </div>
         </div>
       `;
