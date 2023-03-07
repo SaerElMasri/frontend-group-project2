@@ -4,6 +4,32 @@ body{
     font-family: "Open Sans", Arial, sans-serif;
 
 }
+#pp:hover{
+    color:#FF5800;
+}
+.icon-dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #C2D7F2;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+  
+  .icon-dropdown:hover .dropdown-content {
+    display: block;
+    font-size: smaller;
+  }
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -126,7 +152,6 @@ border-style: hidden;
   .slider_info{
     display:flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .slider_title{
@@ -146,7 +171,6 @@ border-style: hidden;
     display: block;
     width: 200px;
     height: 50px;
-    margin-left: 10%;
     margin-top: 5%;
     border-radius: 10px;
     background-color: #FF5800;
@@ -427,4 +451,9 @@ border-style: hidden;
     cursor: pointer;
     padding: 10px 20px;
     line-height: 10px;
+}
+
+a.view_details {
+    padding-bottom: 7%;
+    color: #FF5800;
 }

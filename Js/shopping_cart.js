@@ -1,9 +1,13 @@
 const display_cart = "http://localhost/backend-group-project2/display_cart.php";
 const remove_cart = "http://localhost/backend-group-project2/remove_from_cart.php";
+let checkout = document.querySelector(".btn-proceed");
 let total = document.querySelector("#final_total");
 let total_price = 3;
 total.innerHTML = "0";
 
+
+checkout.addEventListener('click',()=>{
+window.location.href= "http://localhost/frontend-group-project2/pages/checkout.html";})
 
 const fetchProducts = async(url) => {
   let product_price;

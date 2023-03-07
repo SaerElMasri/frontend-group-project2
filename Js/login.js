@@ -93,8 +93,6 @@ function signin() {
     let email = document.getElementById('email_signin').value;
     let password = document.getElementById('password_signin').value;
     console.log(isValidEmail(email));
-   
-
     let data = new FormData();
     data.append('email', email);
     data.append('password', password);
@@ -108,7 +106,7 @@ function signin() {
          window.location.href = "../admin_dashboard/pages/product_table.html";
       }else
         window.location.href = "../index.html"; // redirect to product page
-         
+
     }else {
       alert("Make sure login information is correct");
     }
