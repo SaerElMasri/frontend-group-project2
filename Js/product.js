@@ -30,8 +30,7 @@ url = `http://localhost/backend-group-project2/product.php?id=${id}`;
 const productDetail = 
 fetch(url)
 .then(res=>res.json())
-.then((data) => data.forEach(item) => {
-  product_title.innerText=item.name}))
+console.log(res)
   
   // product_description.innerText=data.description)
   // product_img.innerText=data.name,

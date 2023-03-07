@@ -4,6 +4,32 @@ body{
     font-family: "Open Sans", Arial, sans-serif;
 
 }
+#pp:hover{
+    color:#FF5800;
+}
+.icon-dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #C2D7F2;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+  }
+  
+  .icon-dropdown:hover .dropdown-content {
+    display: block;
+    font-size: smaller;
+  }
+
 .navbar{
     display: flex;
     flex-direction: row;
