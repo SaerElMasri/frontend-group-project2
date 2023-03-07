@@ -64,3 +64,9 @@ const fetchProducts = async(url) => {
   });
 }
 fetchProducts(display_products);
+
+const shop_now = document.querySelectorAll(".slider_button");
+shop_now[0].addEventListener('click',() =>{
+  window.location.href= "http://localhost/frontend-group-project2/pages/product_browser.html";})
+  shop_now[1].addEventListener('click',() =>{
+    window.location.href= "http://localhost/frontend-group-project2/pages/product_browser.html";})

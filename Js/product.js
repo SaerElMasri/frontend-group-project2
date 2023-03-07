@@ -25,6 +25,7 @@ fetch(url)
  product_category.style.padding="0.5%";
  product_category.style.width="fit-content";
  product_category.style.textTransform="capitalize";
+ product_category.style.borderRadius="8%";
 
  const addURL = "http://localhost/backend-group-project2/add_to_cart.php";
  const button = document.querySelector('.add-to-cart-btn');
